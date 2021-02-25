@@ -51,7 +51,7 @@ html,body{
 body{
     margin: 10vw;
     background: black;
-    font-family: 'Anthony', 'DM Sans', sans-serif;
+    font-family: Anthony, 'DM Sans', sans-serif;
     color: white;
     font-size: 5em;
 }
@@ -98,7 +98,7 @@ footer{
 
 @font-face {
 font-family: "Anthony";
-src: url("localfonts/anthony.eot");
+src: url("localfonts/anthony.otf");
 src: url("localfonts/anthony.woff") format("woff"),
-url("localfonts/anthony.eot") format("eot")
+url("localfonts/anthony.woff2") format("woff2")
 }

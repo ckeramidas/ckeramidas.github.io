@@ -1,10 +1,11 @@
 @font-face {
     font-family: 'anthonyregular';
-    src: url('localfonts/anthony.woff2') format('woff2'),
+    src: url('localfonts/anthony.eot');
+    src: url('localfonts/anthony.eot?#iefix') format('embedded-opentype'),
+         url('localfonts/anthony.woff2') format('woff2'),
          url('localfonts/anthony.woff') format('woff'),
-         url('localfonts/anthony.ttf') format('truetype')
-         url('localfonts/anthony.svg') format('svg')
-         url('localfonts/anthony.eot') format('embedded-opentype');
+         url('localfonts/anthony.ttf') format('truetype'),
+         url('localfonts/anthony.svg#anthonyregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -15,6 +16,7 @@
     -moz-user-select:none;
     -ms-user-select:none;
     user-select:none;
+    text-rendering:optimizeLegibility;
 }
 
 /*.selectable{

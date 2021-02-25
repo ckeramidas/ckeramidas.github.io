@@ -2,7 +2,9 @@
     font-family: 'anthonyregular';
     src: url('localfonts/anthony.woff2') format('woff2'),
          url('localfonts/anthony.woff') format('woff'),
-         url('localfonts/anthony.ttf') format('truetype');
+         url('localfonts/anthony.ttf') format('truetype')
+         url('localfonts/anthony.svg') format('svg')
+         url('localfonts/anthony.eot') format('embedded-opentype');
     font-weight: normal;
     font-style: normal;
 }

@@ -51,7 +51,7 @@ html,body{
 body{
     margin: 10vw;
     background: black;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Anthony', 'DM Sans', sans-serif;
     color: white;
     font-size: 5em;
 }
@@ -77,7 +77,6 @@ body{
 
 a{
     color: inherit;
-    cursor:  inherit;
     text-decoration: inherit;
 }
 
@@ -86,4 +85,20 @@ a{
     margin-bottom: 0;
     margin-left: 1em;
     cursor:  pointer;
+}
+
+footer{
+    line-height: .15em;
+    font-family: 'DM Sans', sans-serif;
+    font-size: .15em;
+    position: absolute;
+    bottom: 0;
+    cursor: initial;
+}
+
+@font-face {
+font-family: "Anthony";
+src: url("localfonts/anthony.eot");
+src: url("localfonts/anthony.woff") format("woff"),
+url("localfonts/anthony.eot") format("eot")
 }

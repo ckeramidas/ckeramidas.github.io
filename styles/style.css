@@ -64,7 +64,7 @@ html,body{
 body{
     margin: 10vw;
     background: black;
-    font-family: Anthony, 'DM Sans', sans-serif;
+    font-family: Anthony, 'anthonyregular', 'DM Sans', sans-serif;
     color: white;
     font-size: 5em;
 }

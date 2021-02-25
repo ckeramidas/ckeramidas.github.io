@@ -98,7 +98,8 @@ footer{
 
 @font-face {
 font-family: "Anthony";
-src: url("localfonts/anthony.otf");
+src: url("localfonts/anthony.eot");
 src: url("localfonts/anthony.woff") format("woff"),
-url("localfonts/anthony.woff2") format("woff2")
+url("localfonts/anthony.otf") format("opentype"),
+url("localfonts/anthony.woff2") format("woff2");
 }

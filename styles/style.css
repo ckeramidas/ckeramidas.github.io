@@ -96,10 +96,11 @@ footer{
     cursor: initial;
 }
 
+
 @font-face {
-font-family: "Anthony";
-src: url("localfonts/anthony.eot");
-src: url("localfonts/anthony.woff") format("woff"),
-url("localfonts/anthony.otf") format("opentype"),
-url("localfonts/anthony.woff2") format("woff2");
+    font-family: 'anthonyregular';
+    src: url('localfonts/anthony.woff2') format('woff2'),
+         url('localfonts/anthony.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }

@@ -100,7 +100,8 @@ footer{
 @font-face {
     font-family: 'anthonyregular';
     src: url('localfonts/anthony.woff2') format('woff2'),
-         url('localfonts/anthony.woff') format('woff');
+         url('localfonts/anthony.woff') format('woff'),
+         url('localfonts/anthony.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

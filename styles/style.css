@@ -68,7 +68,7 @@ html,body{
 
 body{
     margin: 10vw;
-    background: black;
+    background-image: url("../images/pic.png");
     font-family: Anthony, 'anthonyregular', 'DM Sans', sans-serif;
     color: white;
     font-size: 5em;
@@ -76,21 +76,21 @@ body{
 
 .link{
     text-decoration: underline;
-    color: white;
+/*    color: black;*/
     cursor: pointer;
     display:table;
 }
 
 .link:hover{
-    color: #ff6363;
+    color: #0062ff;
 }
 
 .link:active{
-    color: #076157;
+    color: #ff9f8f;
 }
 
 .link:visited{
-    color: white;
+    color: black;
 }
 
 a{
@@ -107,6 +107,7 @@ a{
 
 footer{
     line-height: .15em;
+    color:white;
     font-family: 'DM Sans', sans-serif;
     font-size: .15em;
     position: absolute;

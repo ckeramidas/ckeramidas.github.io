@@ -14,10 +14,10 @@ main{
     max-height: 90vh;
     max-width: 90vw;
     margin: 0;
+    padding-top: 20%;
     position: absolute;
-    top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
     text-align: center;
 }
 

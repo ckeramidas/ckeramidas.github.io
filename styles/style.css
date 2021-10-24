@@ -1,3 +1,5 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+
 html{
     height: 100vh;
     background: black;
@@ -14,7 +16,16 @@ main{
     max-height: 90vh;
     max-width: 90vw;
     margin: 0;
-    padding-top: 20%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+}
+
+#links {
+    max-height: 90vh;
+    max-width: 90vw;
+    margin-top: 20%;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0%);

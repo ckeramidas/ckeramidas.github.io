@@ -1,20 +1,19 @@
 html, body {margin: 0; height: 100%; overflow: hidden}
 
-body{
-    position: relative;
-}
-
 html{
-    height: 100vh;
     background: black;
     color: white;
     font-family: Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 24px;
+    line-height: 1.25em;
 }
 
-main{
-    height: 100vh;
-    position: relative;
+img{
+    transform: translate(-50%, 0%);
+}
+
+img:hover{
+    transform: translate(-50%, 0%) scaleX(-1);
 }
 
 #content {
@@ -23,7 +22,6 @@ main{
     margin: 0;
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 0%);
     text-align: center;
 }
 

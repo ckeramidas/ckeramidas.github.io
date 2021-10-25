@@ -48,10 +48,3 @@ a:first-of-type{
 a:active{
     color:lightgray;
 }
-
-@media (hover: none) {
-    html{
-        font-size: 36px;
-        line-height: 1.5em
-    }
-}

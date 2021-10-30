@@ -1,4 +1,4 @@
-html, body {margin: 0; height: 100%; overflow: hidden}
+html, body {margin: 0; height: 100%;}
 
 html{
     background: black;
@@ -16,23 +16,15 @@ img:hover{
     transform: translate(-50%, 0%) scaleX(-1);
 }
 
-#content {
-    max-height: 90vh;
-    max-width: 90vw;
-    margin: 0;
-    position: absolute;
-    left: 50%;
-    text-align: center;
-}
-
 #links {
     max-height: 90vh;
     max-width: 90vw;
-    margin-top: 20%;
+    margin-top: 100px;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0%);
     text-align: center;
+    margin-bottom: 20%;
 }
 
 a{
@@ -45,4 +37,20 @@ a:first-of-type{
 
 a:active{
     color:lightgray;
+}
+
+.video-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    padding-top: 30px; 
+    height: 0; 
+    overflow: hidden; 
+}
+
+.video-container iframe, .video-container object, .video-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
 }
